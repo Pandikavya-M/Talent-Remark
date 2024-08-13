@@ -1,0 +1,338 @@
+body{
+    /* background-color: rgb(253, 209, 151); */
+    background-color: rgb(39, 39, 39);
+}
+/* .navbar.scrolled {
+  box-shadow: 0 1px 2px rgba(235, 235, 235, 0.2); 
+} */
+.navbar-brand{
+    font-family: Tangerine;
+    font-size: 35px;
+    color: #fff;
+    font-weight: bold;
+    background: url("C:/Users/KAVYA/Downloads/logoalt3.png") no-repeat left center; 
+    background-size: 50px 30px;
+    padding-left: 50px; 
+    height: 50px; 
+    line-height: 30px; 
+    position: absolute; 
+}
+.navbar-brand.active {
+    color: white ;
+}
+@media (max-width: 952px) {
+    .navbar-header button{
+        display: block;
+    }
+    .navbar-brand {
+        font-size: 30px;
+        padding-left: 50px;
+     }
+    .navicon {
+       font-size: 20px;
+     }
+   }
+   @media (max-width: 950px) {
+    .navbar-header button{
+        display: block;
+    }
+    .navbar-brand {
+        font-size: 25px;
+        padding-left: 50px;
+     }
+    .navicon {
+       font-size: 10px;
+     }
+   }
+   @media (max-width: 567px) {
+    .navbar-header button{
+        display: block;
+    }
+    .navbar-brand {
+        font-size: 30px;
+        padding-left: 50px;
+     }
+     .navbar-form .form-control {
+        display: none;
+
+      }
+    .navicon {
+       font-size: 15px;
+       align-items: center;
+     }
+     .quote{
+        font-size: 20px;
+     }
+   }
+
+.navicon li{
+    text-align: center;
+
+}
+
+/*------------------------------------Addtag------------------------------*/
+.addtag {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+    background-color: aqua;
+    border: solid 1px azure;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+  /* .addtag img{
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    bottom:20px;
+    right:70px;
+    display: inline-block; 
+  margin-left: 10px;
+  } */
+  
+  .addtag a {
+    font-size: 1.5em;
+    color: #333;
+  }
+  .addtag:hover {
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.1), 0 17px 50px 0 rgba(255, 255, 255, 0.2);
+  }
+
+/*--------------------content------------------------------*/
+.content{
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    /* font-family: mv boli; */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: antiquewhite;
+    /* text-shadow: 1px 1px 2px #ffffff; */
+    
+}
+.content h1{
+    font-size: 45px;
+    margin-bottom: 50px;
+    /* padding: 20px 10px; */
+    text-shadow: 1px 1px 2px #ffffff;
+    font-family: mv boli;
+    color: aqua;
+}
+.sport-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0;
+    transition: 1s box-shadow;
+}
+
+.content h3{
+    font-size: 30px;
+}
+.content p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 10px;
+    font-weight: lighter;
+}
+.content hr { 
+    border-top: 1px solid #ccc;
+    margin: 40px 60px;
+    /* box-shadow: top white; */
+    box-shadow: 0px -2px 2px rgba(250, 240, 240, 1);
+  }
+.tech{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0;
+    transition: 1s box-shadow;
+}
+
+.mus{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0;
+    transition: 1s box-shadow;
+}
+@media (max-width: 768px) {
+    .sport-con {
+        flex-direction: column; 
+    }
+  }
+  @media (max-width: 768px) {
+    .tech {
+        flex-direction: column; 
+  }
+}
+  @media (max-width: 768px) {
+    .mus {
+        flex-direction: column; 
+    }
+  }
+/* .content > div {
+    display: none;
+  }
+   */
+  /* .content > div:target {
+    display: block;
+  } */
+/* .sport-con .sport2 h3{
+    font-size: 30px;
+}
+.sport-con .sport2 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 10px;
+    font-weight: lighter;
+}
+.sport-con .sport3 h3{
+    font-size: 30px;
+}
+.sport-con .sport3 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 10px;
+    font-weight: lighter;
+} */
+.Tab{
+  margin-top: 56px;
+} 
+.Tab ul li a{
+    color: aqua;
+ }
+ .Tab ul li a:hover{
+    color: rgb(30, 7, 233);
+ }
+.panel{
+  padding: 130px;
+  text-align: center;
+  background-color: aquamarine;
+  /* background: url("C:/Users/KAVYA/OneDrive/Desktop/python/HTML/panelimg.jpeg")no-repeat left center; */
+  border: solid 1px #272727;
+  display: none;
+  align-items: center; 
+}
+.panel h1{
+    font-family: mv boli;
+    font-weight: bold;
+    size: 50px;   
+}
+.panel h4{
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    size: 20px;   
+}
+.panel input{
+    width:100%;
+    margin-top: 20px;
+    height:40px;
+    border-radius: 5px;
+}
+.panel input #comment{
+    height: 60px;
+}
+
+/*----------------Footer Main Pg--------------------------------------*/
+.Footermain {
+  text-align: center;
+  padding: 30px;
+  /* font-family: mv boli; */
+  /* font-family: 'Times New Roman', Times, serif; */
+  /* font-weight: bolder; */
+  /* font-size: 50px; */
+  color: antiquewhite;
+  /* text-shadow: 1px 1px 2px #ffffff; */
+}
+
+.foot1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+.foot1 .box {
+  margin: 90px 40px 30px 40px;
+  
+}
+.foot1.box.social-links {
+  display: flex;
+  justify-content: center;
+  margin: 40px 70px; 
+}
+
+/* .foot1.box.social-links a {
+  margin: 0 120px; 
+  width: 100%; 
+  color: antiquewhite;
+} */
+.foot1 .box .social-links i {
+  font-size: 25px;
+  margin-left: 10px; 
+  margin-bottom: 20px;
+}
+
+.foot1.box.social-links a i:hover {
+  color: #ee067a; 
+}
+.foot1 .box .topic{
+  display: flex;
+  margin-bottom: 20px;
+} 
+
+.foot1 .box .topic h2{
+      margin-top: 0;
+      text-align: center;
+      font-family: 'Tangerine';
+      /* text-decoration: underline; */
+      color: white;
+      font-size: 45px;
+      font-weight: bold;
+      margin-left: 10px;
+      text-shadow: 1px 1px 2px #FE4365;
+}
+.foot1 .box .topic img{
+  width: 50px;
+  height: 40px;
+  
+  /* padding-left: 50px; */
+}
+
+.foot1 .box h3 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: 'Akaya Kanadaka';
+  /* text-decoration: underline; */
+  color: antiquewhite;
+  text-shadow: 1px 1px 2px #ffffff;
+}
+
+.foot1 .box p {
+  margin-bottom: 0;
+  /* margin-top: 20px; */
+  color: antiquewhite;
+  box-shadow: 0;
+  line-height: 30px;
+  text-align: left;
+
+}
+@media (max-width: 768px) {
+  .foot1 .box .topic{
+      flex: 1 1 calc(50% - 40px); 
+  }
+}
+
+@media (max-width: 480px) {
+  .foot1 .box {
+      flex: 1 1 100%; 
+  }
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talent Remark's-Remark</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="remark.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <link href='https://fonts.googleapis.com/css?family=Akaya Kanadaka' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <script> 
+        $(document).ready(function(){
+          $("#fixed-button").click(function(){
+            $("#panel").slideToggle("slow");
+          });
+        });
+    </script>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="bg">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <!-- <img src="C:\Users\KAVYA\Downloads\samplogo.png" alt="Logo"> -->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynav">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand active" href="prj.html">Talent Remark</a>
+                    </div>
+                    <div class="navicon">
+                        <div class="collapse navbar-collapse" id="mynav">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="prj.html">Home</a></li>
+                                <li class="active" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="remark.html">Filter <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#technology">Technology</a></li>
+                                        <li><a href="#Beauty">Beauty</a></li>
+                                        <li><a href="#Sports">sports</a></li>
+                                        <li><a href="#Medicine">Medicine</a></li>
+                                        <li><a href="#Music">Music</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="about.html">About</a></li>
+                                <li>
+                                    <form class="navbar-form navbar-right" action="/action_page.php">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Search" name="search">
+                                        </div>
+                                        <button class="btn btn-default"><span class=" glyphicon glyphicon-search"></span></button>
+                                    </form>
+                                </li>
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                                    <li><a href="Signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="panel" id="panel">
+                <!-- <img src="C:\Users\KAVYA\OneDrive\Desktop\python\HTML\panelimg.jpeg"> -->
+                <h1>Share Yor Story</h1>
+                <h4>Dive into a vibrant community and share your success stories</h4>
+                <div class="col-sm-3">
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                </div>
+                <div class="col-sm-3">
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                </div>
+                <div class="col-sm-6">
+                <input type="text" id="comment" name="comment" placeholder="Share your remark">
+                </div>
+            </div>
+
+            <div class="addtag">
+                <a id="fixed-button"><i class="fa-solid fa-plus"></i></a>
+                 <!-- <a href="#"><img src="upbutton.png" id="fixed-button"></a> -->
+            </div>
+            
+            <div class="Tab" style="margin-top: 56px;">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Sports">Sports</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Technology">Technology</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Music">Music</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#Medicine">Medicine</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#Beauty">Beauty</a>
+                    </li>
+                  </ul>
+            </div>
+            
+            
+            <div class="content">
+                <h1 id="Sports">Sports</h1>
+                <div class="sport-con">
+                    <div class="sport-img1">
+                        <img src="C:\Users\KAVYA\OneDrive\Desktop\python\Front-end Prj-Kavya\HTML\img\chessimg.png">
+                    </div>
+                    <div class="sport1">
+                        <h3>Rameshbabu Praggnanandhaa - </h3>
+                        <p>"I strive to conquer the chessboard with relentless dedication and strategic brilliance. Mastering the game is my passion, and achieving the title of India's youngest Grandmaster has been a defining moment in my pursuit. Each challenge I face is a stepping stone toward greater mastery; perseverance fuels my journey. My goal is to inspire a new generation of chess enthusiasts and elevate the global standard of chess play."</p>
+                    </div> 
+                </div>
+                    
+                        <h3>PV Sindhu - </h3>
+                        <p>"I strive to excel on the badminton court through relentless effort and unwavering determination. Winning Olympic medals and world titles has been a testament to my dedication and hard work. Each match is an opportunity to push my limits; perseverance and resilience are my guiding principles. My goal is to inspire young athletes and elevate the sport of badminton on the global stage."</p>
+                    
+                        <h3>MS Dhoni - </h3>
+                        <p>"I aim to lead with calmness and confidence, making strategic decisions under pressure. Winning World Cups and guiding my team to numerous victories have been the highlights of my career. Every challenge is a learning opportunity; resilience and composure are my keys to success. My goal is to inspire future cricketers and leave a lasting legacy in the world of cricket."</p><hr>
+                
+                <h1 id="Technology">Technology</h1>
+                <div class="tech">
+                    <div class="tech1">
+                        <h3>Elon Musk - </h3>
+                        <p>"I aim to revolutionize industries through bold innovation and sustainable solutions. Advancing space exploration and renewable energy are my lifelong passions. Failure serves as a crucial stepping stone on the path to success; perseverance and relentless pursuit of goals define my journey. My mission is to inspire humanity's progress and shape a brighter future for generations to come."</p>
+                    </div>  
+                    <div class="tech-img1">
+                        <img src="C:\Users\KAVYA\OneDrive\Desktop\python\Front-end Prj-Kavya\HTML\img\techimg.png">
+                    </div> 
+                </div>
+                    <div class="tech2">
+                        <h3>Sundar Pichai - </h3>
+                        <p>"I strive to harness technology to improve lives and solve global challenges. Leading Google and driving innovation in AI and cloud computing has been a fulfilling journey. Every obstacle is a chance to learn and grow; persistence and vision guide my path. My goal is to inspire the next generation of technologists and make a positive impact on the world through technology."</p>
+                    </div><hr>
+            
+
+                <h1 id="Music">Music</h1>
+                <div class="mus">
+                    <div class="mus-img1">
+                        <img src="C:\Users\KAVYA\OneDrive\Desktop\python\Front-end Prj-Kavya\HTML\img\musicimg.png">
+                    </div> 
+                    <div class="mus1">
+                        <h3>Lydian Nadhaswaram - </h3>
+                        <p>"I aim to inspire the world through the language of music, pushing boundaries with creativity and passion. Performing on global stages is my dream, and winning international accolades has been a testament to years of hard work. Every note played is a stepping stone towards achieving excellence; perseverance and determination fuel my musical journey. My goal is to ignite a passion for music in hearts worldwide and redefine what is possible in the realm of musical expression."</p>
+                    </div>
+                </div>  
+                    <div class="mus2">
+                        <h3>P. Susheela - </h3>
+                        <p>"I strive to touch hearts through the timeless power of music, delivering every note with emotion and precision. My journey, spanning thousands of songs across various languages, is a testament to dedication and love for my craft. Each melody is an opportunity to connect deeply with my audience; passion and perseverance are the pillars of my success. My goal is to inspire future generations of singers and leave an enduring legacy in the world of music."</p>
+                    </div> <hr>
+                
+
+                <h1 id="Medicine">Medicine</h1>
+                <div class="medi">
+                    <div class="medi1">
+                        <h3>Dr. Devi Shetty - </h3>
+                        <p> I'm a cardiac surgeon from India,"My mission is to make quality healthcare accessible to all. Through innovation and cost-efficient methods, we can save lives and inspire future medical professionals to prioritize humanity."</p>
+                    </div>   
+                </div><hr>
+
+
+                <h1 id="Beauty">Beauty</h1>
+                <div class="beauty">
+                    <div class="beauty">
+                        <h3>Priyanka Chopra - </h3>
+                        <p> "I prioritize holistic beauty, focusing on both internal and external care. Staying hydrated and using natural remedies like coconut oil and turmeric face masks are essential to my routine. Consistently removing makeup and applying sunscreen are crucial for skin protection. My goal is to embrace and enhance natural beauty through a blend of traditional practices and modern techniques, inspiring others to feel confident and radiant."</p>
+                    </div>   
+                </div>
+                
+            </div>
+            
+            <div class="Footermain">
+                <div class="foot1">
+                    <div class="box">
+                        <div class="topic">
+                            <img src="C:/Users/KAVYA/Downloads/logoalt3.png" alt="logo">
+                            <h2>Talent Remark</h2>
+                        </div>
+                        
+                        
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                        </div>
+                        
+                        <p>Copyright © 2024 by Talent Remark <br>Inc.All rights reserved . </p>
+                    </div>
+                    <div class="box">
+                        <h3>Account</h3>
+                        <p>Create account</p>
+                        <p>Log in</p>
+                        <p>iOS app</p>
+                        <p>Android app</p>
+                    </div>
+                    <div class="box">
+                        <h3>Company</h3>
+                        <p>About Talent Remark</p>
+                        <p>Guid partners</p>
+                        <p>Careers</p>
+                    </div>
+                    <div class="box">
+                        <h3>Resources</h3>
+                        <p>Help center</p>
+                        <p>Privacy & terms</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
